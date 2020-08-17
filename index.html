@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenu à TCHI TCHI Africa</title>
+    <link rel="stylesheet" href="./Codes-css/mise-en-page-css.css">
+    <style>
+        #titre{font-size: 40px; 
+            text-decoration:white;
+             text-align: center; 
+             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+
+
+        
+        body{background-image: radial-gradient(circle at top left,white,rgb(111, 111, 236), rgb(168, 221, 168));
+            background-repeat: no-repeat;
+        }
+        footer h2 {
+            text-decoration: underline;font-weight: bolder;
+        }
+        #Zone3 {text-decoration:#07358b;
+            background-color:white;
+            margin-top: 100px; text-decoration: white; 
+            text-align: center; 
+            font-size: 1.3em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder; color: #07358b;
+            z-index: 0;
+        }
+        .left i a{color: rgb(204, 25, 25);}
+    
+        p+h1{text-align: center; text-transform: capitalize; text-decoration: navy;}
+         #prix{
+            font-weight: bolder;
+            background-color:rgb(204, 25, 25);
+            color: white;
+
+        }
+        #Zone3 h1{
+            
+        }
+        .textebas{
+            text-align: center;
+            background-color: white;
+            color: #07358b;
+            font-size: 1.1em;
+        }
+        #im1, #im2{
+            margin-right: 20px;
+        }
+        
+        .divbas{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+
+        }
+
+        .pied1{
+             z-index: 0;
+             margin-bottom:30px;
+             margin-right: 50px;
+             margin-left: 10px;
+             height: auto;
+             margin-right: 30px;
+             position: relative;
+             text-align: left; 
+        }
+        #img1{
+            transition: .5s ease;
+            max-height: 500px;
+            max-width: 500px;
+            ;
+        }
+        .overtext1{
+            transition: .5s ease;
+            position: absolute;
+            top: 40%;
+            left: 0%;
+            transform: (-50% -50%);
+            text-align: center;
+            
+        }
+        .im1{
+            background-color: white;
+            color: #07358b;
+            font-size: 1.5em;
+            padding:16px 32px;
+            opacity: 0;
+            text-decoration: underline;
+        }
+        
+        .pied1:hover #img1{
+            opacity: 0.3;
+        }
+        .pied1:hover .im1{
+            opacity: 1;
+        }
+        .pied2{
+            z-index: 0;
+             margin-bottom:30px;
+             margin-right: 50px;
+             height: auto;
+             margin-right: 30px;
+             text-align: right;
+             position: relative;
+             
+        }
+        #img2{
+            transition: .5s ease;
+            max-height: 500px;
+            max-width: 500px;
+
+
+        }
+        .overtext2{
+            transition: .5s ease;
+            position: absolute;
+            top: 40%;
+            left: 0%;
+            transform: (-50% -50%);
+            text-align: center;
+            
+        }
+        .im2{
+            background-color: white;
+            color: #921a1a;
+            font-size: 1.5em;
+            padding:16px 32px;
+            opacity: 0;
+            text-decoration: underline;
+            
+        }
+        
+        .pied2:hover #img2{
+            opacity: 0.3;
+        }
+        .pied2:hover .im2{
+            opacity: 1;
+        }
+       
+        
+
+        
+
+        
+    </style>
+</head>
+<body> 
+    <div class="entete">
+        <div class="Zone1">
+            <img src="./images/logo-tchi-tchi.png" alt="logo-tchi-tchi" id="pageacceuil">
+        </div>
+        
+        <div id="Zone2">
+            <ul>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./activites.html">Activités</a></li>
+                <li><a href="./apropos.html" align="center">A Propos</a></li>
+            </ul>
+        </div>
+            
+           
+    </div>
+    
+    <div id="Zone3">
+        <p>
+            <h1>BIENVENUE CHEZ TCHI TCHI Africa</h1> 
+            <h2>Pour des lunettes à votre image.</h2>
+            </div>
+        </p> 
+        <div class="imagethi">
+            <p align="center">
+                <img src="./images/Tchi-tchi-batiment-png.jpg" alt="Les logos de Tchi-Tchi Africa" width="70%">
+            </p>
+        </div><br>
+        <div class="textebas">
+            <h2>
+                Nous avons repensé le magasin d'optique, pour n'en garder que l'essentiel. Notre équipe d'opticiens compétents vous accueille dans un cadre chaleureux et simple. <br>
+    
+                Nous proposons un service rapide, efficace mais surtout, abordable pour tous. <br>
+                Prix de départ <b><u> <i id="prix">20.000 FCFA.</i></u></b>
+            </h2>
+        </div>
+        <div class="divbas">
+            <div  class="pied1">
+                
+                <img src="./images/tchi 6.jpg" alt="photo de lunettes"  id="img1" >
+                
+                <div class="overtext1">
+                    <div class="im1"> Tous nos verres sont résistants à la rayure</div>
+                </div>      
+                
+            </div>  
+            
+            <div class="pied2">
+                
+                <img src="./images/background contact.jpg" alt="tchi tchi image" id="img2" >
+                
+                <div class="overtext2">
+                    <div class="im2"> Vos lunettes en 20minutes, c’est ça la magie Tchi Tchi Africa !</div>
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </div>  
+    
+    <div class="Zone4"> 
+
+        <div class="left">
+            <div>
+                <i> <u>Numéros de téléphone:</u>  (+229) 67 67 40 40</i> 
+            </div>
+            <div>
+                <i><u>Adresse e-mail:</u> <a href="http://www.tchitchiafrica.com">www.tchitchiafrica.com</a> </i>
+            </div>
+            <div>
+                <i><u> Instagram:</u> <a href="http://www.instagram.com/tchitchiafrica">@tchitchiafrica</a></i>
+            </div>
+        </div>
+        <br>
+        <div class="right">
+            
+            <ul>
+                <li><u>HORAIRES D'OUVERTURE</u> </li><br>
+                <li>LUNDI - VENDREDI: 08h-19h</li>
+                <li>SAMEDI: 09h-17h</li>
+            </ul>
+        </div>
+        
+    </div>   
+    <div class="copy">
+        &copy; Copyright 2020|TCHI TCHI Africa|Florian|Html 
+    </div>
+        
+   
+
+
+</body>
+</html>
